@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOUSING</title>
+
+    <!-- LIGHTBOX -->
+    <link rel="stylesheet" href="./css/lightbox.min.css">
+
+    <!-- OWL CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- FONT GOOGLE -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header__content">
+            <p>Hous<span>ing</span></p>
+            <div class="header__item">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Agents</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <!-- CAROUSEL -->
+    <section>
+        <div class="carousel">
+            <div class="carousel__content">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="text oneimg">
+                            <div class="text__item">
+                                <h4>LOREM IPSUM AMET</h4>
+                                <p>Lorem ipsum dolor sit, consectetur adiping elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text twoimg">
+                            <div class="text__item">
+                                <h4>DOLOR SIT HATANT MORBI</h4>
+                                <p>Quis autem vel eum iure reprehenderit quivol.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text threeimg">
+                            <div class="text__item">
+                                <h4>QUIS AUTEM VE EUM IURE</h4>
+                                <p>Excepteur sint ocecat cupid proident, deserunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text fourimg">
+                            <div class="text__item">
+                                <h4>VOLUPTATE VELIT ESSE</h4>
+                                <p>Quis autem velreprehenderit qui ea.eum iure</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT -->
+    <!-- STATS -->
+    <!-- BLOG -->
+    <!-- GET MORE -->
+    <!-- PORTFOLIO -->
+    <!-- SUBCRIBE -->
+    <!-- AGENTS -->
+    <!-- CONTACT -->
+    <!-- FOOTER -->
+
+    <!-- Thu vien ho tro Jquery giup chay hieu ung cua cac thu vien animation -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Jquery waypoint -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <!-- OWL JS -->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2500,
+            animateOut: 'fadeOut',
+            // autoplayHoverPause: true,
+            // margin: 10,
+            // nav: true, muoi ten
+            responsive: {
+                0: {
+                    items: 1
+                }
+                // 600: {
+                //     items: 1
+                // },
+                // 1000: {
+                //     items: 1
+                // }
+            }
+        })
+    </script>
+
+
+    <!-- class="owl-carousel owl-theme" -->
+</body>
+
+</html>
