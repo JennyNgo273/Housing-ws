@@ -509,6 +509,15 @@ header{
     opacity: 1;
 }
 
+.fancybox__toolbar__items--left{
+    width: 100%;
+}
+.fancybox__toolbar__items {
+    display: block;
+}
+ .fancybox__button--zoom, .fancybox__button--slideshow, .fancybox__button--fullscreen, .fancybox__button--thumbs{
+    display: none;
+}
 /* SUBCRIBE */
 .subcribe{
     width: 100%;
@@ -658,7 +667,6 @@ header{
 .contact h3{
     margin-bottom: 0.8em ;
 }
-}
 .item1 { grid-area: name; }
 .item2 { grid-area: message; }
 .item3 { grid-area: last; }
@@ -716,7 +724,96 @@ footer{
 }
 .footer__content span{
     color: red;
+    transition: all .5s;
+    cursor: pointer;
 }
-.footer__content .team__social i{
+.footer__content span:hover{
+    color: white;
+}
+.footer__content .team__social1 i{
+    width: 34px;
+    height: 34px;
     border: 1px solid white;
+    text-align: center;
+    /* cho = chieu cao can giua theo chieu doc */
+    line-height: 34px;
+    margin: 0 10px;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+.footer__content .team__social1 i:first-child:hover{
+    color: rgb(0, 56, 139);
+}
+.footer__content .team__social1 i:nth-child(2):hover{
+    color: rgb(0, 140, 255);
+}
+.footer__content .team__social1 i:nth-child(3):hover{
+    color: orangered
+}
+.footer__content .team__social1 i:nth-child(4):hover{
+    color: rgb(0, 48, 80)
+}
+
+
+/* SIDEBAR */
+.toggle-right-sidebar span {
+    background: #0D1326;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    font-size: 26px;
+    cursor: pointer;
+    opacity: .5;
+}
+.pull-right {
+    float: right;
+    position: fixed;
+    right: 0px;
+    top: 70px;
+    width: 90px;
+    z-index: 99999;
+    text-align: center;
+}
+#right-sidebar {
+    width: 90px;
+    position: fixed;
+    height: 100%;
+    z-index: 1000;
+    right: 0px;
+    top: 0;
+    margin-top: 60px;
+    transition: all .5s ease-in-out;
+    overflow-y: auto;
+}
+#w3lDemoBar.w3l-demo-bar {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    padding: 40px 5px;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    background: #0D1326;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+#w3lDemoBar.w3l-demo-bar .demo-btns {
+    border-top: 1px solid #41414d;
+    padding-top: 30px;
+}
+#w3lDemoBar.w3l-demo-bar a {
+    display: block;
+    color: #e6ebff;
+    text-decoration: none;
+    line-height: 24px;
+    opacity: .6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#w3lDemoBar.w3l-demo-bar span.w3l-icon {
+    display: block;
 }
