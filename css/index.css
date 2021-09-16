@@ -422,6 +422,7 @@ header{
     display: inline-block;
     transition: all .5s;
     margin: 2em 0em 4em;
+    cursor: pointer;
 }
 .more__details .button:hover a{
     color: white;
