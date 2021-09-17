@@ -13,7 +13,7 @@ Based on the [W3Layouts](https://w3layouts.com/template/housing-a-real-estate-ca
 # Live demo
 🔗 [Housing Home page](https://jennyngo273.github.io/Housing-ws/)
 
-# Requirements
+# Technology
 <ul>
   <li>Fancyapps: Gallery of images</li>
   <li>Owl carousel: Responsive carousel slider</li>
